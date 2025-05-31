@@ -1,0 +1,46 @@
+.header{
+    background-color:  rgb(180, 239, 247);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .nav ul li{
+    list-style: none;
+    padding: 10px;
+  }
+  .nav li {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover hiệu ứng */
+  .nav li:hover {
+    color:rgb(241, 0, 0); /* Màu khi hover */
+    transform: scale(1.1); /* Phóng to khi hover */
+  }
+  .Trangchu, .tiemkiem, .CSKH, .Hoptac{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    color:rgb(241, 0, 0); /* Màu khi hover */
+    transform: scale(1.1); /* Phóng to khi hover */
+
+    padding: 2px;
+    border-radius: 20%;
+    background-color: rgb(91, 218, 235);
+  }

@@ -1,0 +1,77 @@
+.chitietsanpham {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mainImage {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.galleryItem {
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.galleryItem:hover {
+  border: 2px solid #0070f3;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.discountedPrice {
+  color: red;
+  font-weight: bold;
+}
+
+.normalPrice {
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.stock {
+  margin-bottom: 20px;
+}
+
+.buyButton {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background-color: #005bb5;
+}
+  

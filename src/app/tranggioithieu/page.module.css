@@ -1,0 +1,36 @@
+.container {
+  background-color: #6ba8aa; /* Xanh pastel */
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.intro, .coreValues, .contact {
+  background-color: #ff4f94; /* Hồng neon */
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  color: #ffdb3b; /* Vàng sáng cho tiêu đề */
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}

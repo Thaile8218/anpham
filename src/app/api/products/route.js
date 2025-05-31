@@ -1,0 +1,28 @@
+import clientPromise from "../../lib/mongdb";
+
+
+
+
+export async function GET() {
+  try {
+    const client = await clientPromise;
+    const db = client.db('shopDB');
+    const collection = db.collection('product');
+
+
+
+
+    const data = await collection.find({}).toArray();
+
+
+
+
+    return Response.json({ data });
+  } catch (error) {
+    return Response.json({ error });
+  }
+}
+
+
+
+
